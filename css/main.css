@@ -1,5 +1,7 @@
-.img {
-    background-color: aqua;
-    height: 250px;
-    width: 150px;
+#header-logo {
+    order: -1;
+}
+
+#main-nav {
+    display: none;
 }
