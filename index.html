@@ -10,6 +10,9 @@
 </head>
 <body>
     <header class="grid-con">
+        <div class="col-start-4 col-end-5">
+            <img src="images/Asset 1.svg" class="burger-nav">
+        </div>
         <nav id="main-nav">
             <ul>
                 <li>Home</li>
@@ -23,71 +26,77 @@
     </header>
 
     <section id="hero" class="grid-con">
-        <div class="slogan">
-            <p>Chill Beyond Ordinary</p>
-        </div>
+        <div class="slogan col-span-full">hero</div>
     </section>
 
-    <section id="flavors">
-
-        <div class="grid-con original">
-            <div class="box col-start-1 col-end-3">original</div>
-            <div class="col-start-3 col-end-5">
-            <h2>01</h2>
-            <h3>Original</h3>
-            <p>Refreshing lemon and lime flavor.<br>
-                Enjoy drink as it is and <br>
-                find your own favorite cocktail<br>
-                 with original flavor!</p>
-                <p>$4.50</p>
-                <button>ADD TO CART</button>
-                </div>
-        </div>
-
-        <div class="grid-con blood-orange">
-            <div class="col-start-1 col-end-3">
-            <h2>02</h2>
-            <h3>Blood Orange</h3>
-            <p>Refreshing lemon and lime flavor.<br>
-                Enjoy drink as it is and <br>
-                find your own favorite cocktail<br>
-                 with original flavor!</p>
-                <p>$4.50</p>
+    <section class="grid-con" id="flavors">
+      <h2 class="col-span-full">Flavors</h2>
+        <div class="original col-span-full">
+            <div class="grid-con">
+            <div class="box col-span-2">original</div>
+            <div class="box col-span-2">text<br>
                 <button>ADD TO CART</button>
             </div>
-            <div class="box col-start-3 col-end-5">Blood Orange</div>
+            </div>
         </div>
 
-        <div class="grid-con green-grapes">
-            <div class="box col-start-1 col-end-3">Green Grapes</div>
-            <div class="col-start-3 col-end-5">
-            <h2>03</h2>
-            <h3>Green Grapes</h3>
-            <p>Refreshing lemon and lime flavor.<br>
-                Enjoy drink as it is and <br>
-                find your own favorite cocktail<br>
-                 with original flavor!</p>
-                <p>$4.50</p>
-                <button>ADD TO CART</button>
-                </div>
+        <div class="blood-orange col-span-full">
+            <div class="grid-con">
+            <div class="box col-span-2">text<br>
+                <button>ADD TO CART</button></div>
+            <div class="box  col-span-2">Blood Orange</div>
+            </div>
+        </div>
+
+        <div class="green-grapes col-span-full">
+            <div class="grid-con">
+            <div class="box col-span-2">Green Grapes</div>
+            <div class="box col-span-2">text<br>
+                <button>ADD TO CART</button></div>
+            </div>
         </div>
     </section>
 
     <section id="recipes" class="grid-con">
-        <div class="box col-span-2">Cocktails</div>
-        <div class="box col-span-2">Cocktails</div>
+        <h2 class="col-span-full">Feature Reciepes</h2>
+        <div class="box col-span-2">recipe 1</div>
+        <div class="box col-span-2">recipe 2</div>
         <a href="#" class="col-span-full">VIEW MORE →</a>
     </section>
 
     <section id="social" class="grid-con">
-        <h2 class="col-span-full">ZIMAofficial</h2>
-        <div class="box">pic</div>
-        <div class="box">pic</div>
-        <div class="box">pic</div>
-        <div class="box">pic</div>
+        <div class="col-span-full">
+            <div class="grid-con">
+            <img src="images/Instagram_Glyph_Black.svg" class="insta-icon">
+            <h2>ZIMAofficial</h2>
+            </div>
+            </div>
+        <div class="box">pic 1</div>
+        <div class="box">pic 2</div>
+        <div class="box">pic 3</div>
+        <div class="box">pic 4</div>
+        <div class="box pic-m-hidden">pic 5</div>
+        <div class="box pic-m-hidden">pic 6</div>
     </section>
 
-    <footer></footer>
+    <footer>
+        <nav id="footer-nav" class="grid-con">
+            <div class="box col-span-2">logo</div>
+            <ul class="col-span-2">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Flavors</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Our Story</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <hr>
+        <div class="grid-con col-span-full footer-link">
+        <a href="#">terms</a>
+        <a href="#">plivacy</a>
+        <a href="#">policy</a>
+        </div>
+    </footer>
     
 </body>
 </html>

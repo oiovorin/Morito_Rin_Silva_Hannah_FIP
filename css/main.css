@@ -5,3 +5,108 @@
 #main-nav {
     display: none;
 }
+
+.burger-nav {
+    width: 50px;
+    height: 50px;
+    padding-top: 20px;
+    margin-left: 40px;
+}
+
+#hero {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.slogan {
+    background-color: gray;
+    height: 300px;
+}
+
+.original .box {
+    margin-top: 30px;
+}
+
+.original .box, .blood-orange .box, .green-grapes .box {
+    height: 200px;
+    margin-bottom: 30px;
+}
+
+.green-grapes {
+    margin-bottom: 50px;
+}
+
+button {
+    margin-top: 100px;
+}
+
+#recipes {
+    background-color: rgba(128, 128, 128, 0.678);
+}
+
+#recipes h2 {
+    padding-top: 30px;
+}
+
+#recipes .box {
+    margin-top: 20px;
+    height: 200px;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    padding: 15px;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#social {
+    margin: 60px 0;
+}
+
+#social h2 {
+    text-align: center;
+}
+
+#social .box {
+    height: 150px;
+    margin-top: 30px;
+}
+
+.pic-m-hidden {
+    display: none;
+}
+
+#social .box:hover {
+    transform: scale(110%);
+    transition: all 0.3s ease;
+}
+
+.insta-icon {
+    height: 25px;
+    width: 25px;
+    margin-left: 70px;
+}
+
+footer {
+    background-color: rgba(128, 128, 128, 0.64);
+    padding-top: 30px;
+}
+
+
+#footer-nav ul {
+    list-style: none;
+    font-size: 18px;
+}
+
+#footer-nav ul li {
+    padding: 10px 0;
+}
+
+.footer-link {
+    padding: 20px;
+}
