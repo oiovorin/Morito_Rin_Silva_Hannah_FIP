@@ -9,94 +9,134 @@
 
 </head>
 <body>
-    <header class="grid-con">
-        <div class="col-start-4 col-end-5">
-            <img src="images/Asset 1.svg" class="burger-nav">
+    <header class="grid-con col-span-full" id="header-flex">
+        <div id="header-logo" class="m-col-span-2">
+            <img src="images/logo-zima.png" alt="logo">
         </div>
-        <nav id="main-nav l-col-start-7 l-col-end-13">
+
+     <div class="m-col-start-2 m-col-end-12">
+      <nav id="main-nav">
+        <h2 class="hidden">Main Navigation</h2>
+
+    
+         <input type="checkbox" id="hamburger">
+         <label for="hamburger">
+                <img src="images/burger.svg" alt="burger nav container" class="hamberger-nav">
+           </label>
+        
+        <div id="burger-con">
+            <label for="hamburger" class="close-btn">✕</label>
             <ul>
-                <li>Home</li>
-                <li>Flavors</li>
-                <li>Shop</li>
-                <li>Our Story</li>
-                <li>Contact</li>
+                <li><a href="">Home</a></li>
+                <li><a href="#">Flavors</a></li>
+                <li class="promotion"><a href="">Promotion</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="">Contact</a></li>
             </ul>
-        </nav>
-        <div id="header-logo" class="box col-span-3">logo</div>
+        </div>
+      </nav>
+     </div>
     </header>
 
-    <section id="hero" class="grid-con">
-        <div class="slogan col-span-full">hero</div>
+    <section id="cinemagraph">
+        <video src="videos/Comp 1.mp4"></video>
     </section>
 
-    <section class="grid-con" id="flavors">
-      <h2 class="col-span-full">Flavors</h2>
-        <div class="original col-span-full">
-            <div class="grid-con">
-            <div class="box col-span-2">original</div>
-            <div class="box col-span-2">text<br>
-                <button>ADD TO CART</button>
-            </div>
-            </div>
-        </div>
+    <section class="grid-con">
+        <div id="flavors" class="col-span-full">
+         <div id="original">  
+         </div>
 
-        <div class="blood-orange col-span-full">
-            <div class="grid-con">
-            <div class="box col-span-2">text<br>
-                <button>ADD TO CART</button></div>
-            <div class="box  col-span-2">Blood Orange</div>
-            </div>
-        </div>
+         <div id="blood-orange">
+         </div>
 
-        <div class="green-grapes col-span-full">
-            <div class="grid-con">
-            <div class="box col-span-2">Green Grapes</div>
-            <div class="box col-span-2">text<br>
-                <button>ADD TO CART</button></div>
-            </div>
+         <div id="green-grapes">
+         </div>
+
         </div>
     </section>
+    
 
-    <section id="recipes" class="grid-con">
-        <h2 class="col-span-full">Feature Reciepes</h2>
-        <div class="box col-span-2">recipe 1</div>
-        <div class="box col-span-2">recipe 2</div>
-        <a href="#" class="col-span-full">VIEW MORE →</a>
-    </section>
+    <footer class="grid-con">
+        <div id="footer-logo" class="col-span-2">
+            <img src="images/footer-logo.png" alt="logo">
+        </div>
 
-    <section id="social" class="grid-con">
-        <div class="col-span-full">
-            <div class="grid-con">
-            <img src="images/Instagram_Glyph_Black.svg" class="insta-icon">
-            <h2>ZIMAofficial</h2>
-            </div>
-            </div>
-        <div class="box">pic 1</div>
-        <div class="box">pic 2</div>
-        <div class="box">pic 3</div>
-        <div class="box">pic 4</div>
-        <div class="box pic-m-hidden">pic 5</div>
-        <div class="box pic-m-hidden">pic 6</div>
-    </section>
+        <div class="col-start-3 col-span-2 m-col-span-1">
+            <nav id="m-footer-nav">
+              <ul>
+                <li><a href="">Home</a></li>
+                <li class="promotion"><a href="">Promotion</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+              </ul>
+              </nav>
+        </div>
 
-    <footer>
-        <nav id="footer-nav" class="grid-con">
-            <div class="box col-span-2">logo</div>
-            <ul class="col-span-2">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Flavors</a></li>
-                <li><a href="#">Shop</a></li>
-                <li><a href="#">Our Story</a></li>
-                <li><a href="#">Contact</a></li>
+        <div class="m-col-start-4" id="home">
+            <nav class="m-l-footer-nav">
+                <ul>
+                    <li class="bold"><a href="">Home</a></li>
+                    <li><a href="">Original</a></li>
+                    <li><a href="">Blood Orange</a></li>
+                    <li><a href="">Green Grapes</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="m-col-start-7">
+            <nav class="m-l-footer-nav">
+                <ul>
+                    <li class="bold"><a href="">promotion</a></li>
+                    <li><a href="">Event</a></li>
+                    <li><a href="">Gift</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="m-col-start-9">
+            <nav class="m-l-footer-nav">
+                <ul>
+                    <li class="bold"><a href="">About</a></li>
+                    <li><a href="">Reviews</a></li>
+                    <li><a href="">Community</a></li>
+                    <li><a href="">FAQ</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="m-col-start-11">
+            <nav class="m-l-footer-nav">
+                <ul>
+                    <li class="bold"><a href="">Contact</a></li>
+                    <li><a href="">Form</a></li>
+                    <li><a href="">Instagram</a></li>
+                    <li><a href="">YouTube</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div id="line" class="col-span-full"></div>
+
+        <nav id="footer-sec-nav" class="col-span-2">
+            <ul>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Plivacy</a></li>
+                <li><a href="#">Policy</a></li>
             </ul>
         </nav>
-        <hr>
-        <div class="grid-con col-span-full footer-link">
-        <a href="#">terms</a>
-        <a href="#">plivacy</a>
-        <a href="#">policy</a>
+
+        <div id="footer-icon" class="col-start-3">
+            <div>
+                <img width="30" height="30" src="https://img.icons8.com/ios/50/FFFFFF/instagram-new--v1.png" alt="instagram-new--v1"/>
+            </div>
+        
+
+        <div>
+            <img width="30" height="30" src="https://img.icons8.com/ios/50/FFFFFF/youtube-play--v1.png" alt="youtube-play--v1"/>
         </div>
+    </div>
+
     </footer>
-    
 </body>
 </html>
