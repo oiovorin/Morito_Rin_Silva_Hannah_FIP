@@ -258,6 +258,14 @@ footer {
         padding-left: 30px;
       }
 
+      #footer-icon {
+        padding-top: 15px;
+      }
+
+      #footer-sec-logo img {
+        scale: 70%;
+      }
+
 }
 
 
