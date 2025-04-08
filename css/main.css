@@ -262,25 +262,32 @@ footer {
 
       .m-l-footer-nav {
         display: block;
+        text-align: center;
+        padding-top: 30px;
       }
 
       .m-l-footer-nav ul li {
         list-style: none;
         padding: 5px 0;
-        text-align: center;
       }
 
       .m-l-footer-nav ul li a {
         font-size: .7em;
       }
 
-      .m-l-footer-nav ul li.bold {
-        font-size: 1em;
+      .m-l-footer-nav ul {
+        width: fit-content;
+        margin: 0 auto;
       }
 
-      #home {
-        padding-left: 30px;
+
+      .m-l-footer-nav ul li.bold {
+        font-size: 1em !important; 
       }
+
+      /*#home {
+        padding-left: 30px;
+      }*/
 
       #footer-icon {
         padding-top: 15px;
