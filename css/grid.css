@@ -28,6 +28,11 @@ html {
      margin-bottom:10px;
      font-size: 14px;
    }
+
+   .full-width-grid-con {
+      display: grid;
+      grid-template-columns: 1fr minmax(0, 1200px) 1fr;
+     }
   
   /* ---Mobile Grid Styles--- */
   
