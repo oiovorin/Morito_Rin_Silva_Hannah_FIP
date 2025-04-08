@@ -176,11 +176,20 @@ footer {
     padding-right: 30px;
 }
 
+#footer-sec-logo {
+  display: none;
+}
+
 
 @media  screen and (min-width: 768px) {
 
     body {
         font-size: 1.2em;
+    }
+
+    header {
+      height: 80px;
+      background-color: white;
     }
 
     #header-logo {
@@ -189,6 +198,21 @@ footer {
         left: 384px;
         padding-top: 15px;
         z-index: 100;
+    }
+
+    #burger-con {
+      position: static;
+      transform: none;
+      transition: none;
+      background-color: none;
+      z-index: -1;
+      box-shadow: none;
+      width: 100%;
+      padding-top: 0; 
+    }
+
+    #burger-con label {
+      display: none;
     }
 
     #main-nav label img {
@@ -262,6 +286,11 @@ footer {
         padding-top: 15px;
       }
 
+      #footer-sec-logo {
+        display: block;
+      }
+
+      
       #footer-sec-logo img {
         scale: 70%;
       }
