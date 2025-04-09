@@ -185,7 +185,7 @@ footer {
 #contact-form h2 {
   text-align: center;
   color: white;
-  padding: 20px;
+  padding: 30px;
 }
 
 #contact-form {
@@ -208,7 +208,7 @@ footer {
 
 #contact-form textarea {
   height: 200px;
-  margin: 5px 50px;
+  margin: 5px 50px 50px 50px;
   font-family: inherit;
   font-size: 1em;
   padding: 10px;
@@ -366,7 +366,7 @@ footer {
       }
 
       #contact-form textarea {
-        margin: 10px 100px;
+        margin: 10px 100px 80px 100px;
       }
 
 }
@@ -384,6 +384,10 @@ footer {
 
     #main-nav #burger-con ul li.promotion {
         padding-right: 250px;
+    }
+
+    #contact-form form input {
+      width: 1375%;
     }
 
     
