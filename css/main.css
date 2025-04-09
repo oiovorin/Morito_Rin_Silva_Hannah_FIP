@@ -180,6 +180,48 @@ footer {
   display: none;
 }
 
+/* contact page style */
+#contact-form {
+ background-color: #01497c60; 
+}
+
+form {
+  padding: 5px 0;
+}
+
+#contact-form form input {
+  font-size: 1em;
+  padding: 10px;
+}
+
+
+#contact-form textarea {
+  height: 200px;
+}
+
+#address, #info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+#address {
+  margin-top: 50px;
+}
+
+
+#address p, #info p {
+  text-align: center;
+}
+
+#info div:first-child {
+  padding-left: 10px;
+}
+
+#info div p {
+  padding-left: 150px;
+}
 
 @media  screen and (min-width: 768px) {
 
@@ -281,7 +323,7 @@ footer {
       }
 
 
-      .m-l-footer-nav ul li.bold {
+      .m-l-footer-nav ul li a.bold {
         font-size: 1em !important; 
       }
 
