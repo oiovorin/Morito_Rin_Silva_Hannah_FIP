@@ -387,7 +387,7 @@ footer {
   /*header icons*/
 
   #header-icons {
-    display: block;
+    display: inline;
     gap: 0.5rem;
 
     align-items: center;
@@ -566,9 +566,9 @@ footer {
     width: 1375%;
   }
 
-   /*header icons*/
+  /*header icons*/
 
-   #header-icons {
+  #header-icons {
     display: block;
     gap: 0.5rem;
     align-items: center;
