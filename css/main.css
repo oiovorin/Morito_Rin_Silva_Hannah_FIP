@@ -122,7 +122,7 @@
   font-weight: bold;
   margin-bottom: 20px;
   text-align: center;
-  color: #333;
+  color: #01497c !important;
 }
 
 .flavor-slide {
@@ -180,6 +180,11 @@
   background-color: #333;
 }
 
+#recipe-bg {
+  background-color: #01497c60;
+  margin: 100px 0;
+}
+
 #recipe {
   margin-top: 50px;
   margin-bottom: 100px;
@@ -187,8 +192,8 @@
 
 #recipe h2 {
   text-align: center;
-  color: #01497c;
-  padding: 50px;
+  color: white;
+  padding-bottom: 40px;
 }
 
 
@@ -198,9 +203,8 @@
   transition: all 0.3s ease-in-out;
 }
 
-.hero-recipe {
-  display: flex;
-  justify-content: space-evenly;
+.cocktails {
+  margin: 10px auto;
 }
 
 .cocktails {
@@ -221,6 +225,54 @@
 .cocktails img:hover ~ .hover-text {
   opacity: 1;
 }
+
+.instagram {
+  display: flex;
+  align-items: center;
+  justify-content: center;       
+  gap: 10px;                     
+  padding: 0 50px; 
+}
+
+#instagram-pic-container {
+  width: max-content;
+  height: 225px;
+  overflow: hidden;
+  margin: 50px auto 30px auto;
+  position: relative;
+  text-align: center;
+}
+
+#instagram-pic {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.ig-pic {
+  margin: 20px;
+  width: 150px;
+  height: 225px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrow {
+  display: inline-block;
+  margin: 0 25px 100px 25px;
+  text-decoration: none;
+  color: #01497c;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+#arrows {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
 /*Footer*/
 
 footer {
@@ -534,6 +586,7 @@ footer {
     background-color: #333;
   }
 
+
   /*Footer*/
 
   #footer-logo {
@@ -713,5 +766,10 @@ footer {
 
   .dot.active {
     background-color: #333;
+  }
+
+  .hero-recipe {
+    display: flex;
+    justify-content: space-evenly;
   }
 }
