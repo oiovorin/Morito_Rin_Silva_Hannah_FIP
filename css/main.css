@@ -12,6 +12,10 @@
   transform-origin: top left;
 }
 
+header {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
 /*Main Nav*/
 
 #main-nav #burger-con ul li a {
@@ -111,6 +115,20 @@
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 }
 
+/* intro */
+#zima-intro {
+  margin-bottom: 100px;
+}
+
+#zima-intro h2, #zima-intro h3 {
+  text-align: center;
+}
+
+
+#zima-intro p {
+  margin: 30px;
+}
+
 /* Flavors */
 
 #flavors {
@@ -180,6 +198,8 @@
   background-color: #333;
 }
 
+/* recipe */
+
 #recipe-bg {
   background-color: #01497c60;
   margin: 100px 0;
@@ -225,6 +245,8 @@
 .cocktails img:hover ~ .hover-text {
   opacity: 1;
 }
+
+/* instagram */
 
 .instagram {
   display: flex;
@@ -649,6 +671,11 @@ footer {
 }
 
 @media screen and (min-width: 1200px) {
+
+  body {
+    font-size: 1.4em;
+  }
+
   #main-nav #burger-con ul li {
     padding: 0 40px;
   }
