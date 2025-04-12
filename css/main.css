@@ -180,6 +180,47 @@
   background-color: #333;
 }
 
+#recipe {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+#recipe h2 {
+  text-align: center;
+  color: #01497c;
+  padding: 50px;
+}
+
+
+.cocktails img:hover {
+  filter: brightness(0.5);
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+}
+
+.hero-recipe {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.cocktails {
+  position: relative;
+  display: inline-block;
+}
+
+.hover-text {
+  font-size: 1.3em;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  color: white;
+  transition: opacity 0.3s ease-in-out;
+  opacity: 0;
+}
+
+.cocktails img:hover ~ .hover-text {
+  opacity: 1;
+}
 /*Footer*/
 
 footer {
@@ -402,6 +443,11 @@ footer {
 
   .header-icon:hover {
     color: #01497c;
+  }
+
+  .hero-recipe {
+    display: flex;
+    justify-content: space-between;
   }
 
   /*Video*/
