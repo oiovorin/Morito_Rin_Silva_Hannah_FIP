@@ -1,6 +1,8 @@
 function flipTo(index) {
     const slides = document.querySelectorAll(".flavor-slide img");
     const dots = document.querySelectorAll(".dot");
+    const details = document.querySelectorAll(".bottle-detail");
+    
   
     slides.forEach((img, i) => {
       img.classList.remove("flipped");
@@ -10,12 +12,27 @@ function flipTo(index) {
       if (i === index) {
         img.classList.add("flipped");
       }
+      
     });
-  
+
     dots.forEach((dot, i) => {
       dot.classList.toggle("active", i === index);
     });
+
+    details.forEach((detail, i) => {
+      if (i === index) {
+        detail.style.display = 'block';
+      } else {
+        detail.style.display = 'none';
+      }
+    });
   }
+
+    
+
+    
+
+
   
 
 

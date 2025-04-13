@@ -214,6 +214,65 @@ header {
   background-color: #333;
 }
 
+.bottle-detail {
+  width: 400px;
+  height: 400px;
+  color: #333;
+  z-index: -200;
+}
+
+.bottle-detail h3, .bottle-detail p {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.bottle-detail h3 {
+  padding: 20px 0 15px 0;
+  font-size: 1.2em;
+}
+
+.bottle-detail p {
+  font-size: 0.7em;
+  margin-bottom: 20px;
+}
+
+.bottle-detail p.aline-right {
+  text-align: right;
+  padding: 10px 80px 10px 0;
+  border-top: 2px solid #ab9d1d;
+  border-bottom: 2px solid #ab9d1d;
+  
+}
+
+.bottle-detail p span {
+  font-weight: bold;
+}
+
+.bottle-detail ul li {
+  list-style: none;
+  font-size: 0.7em;
+  margin-left: 0;
+  margin-right: 40px;
+  padding: 10px 0;
+  border-bottom: 1px solid #333;
+}
+
+#Original {
+  background-color: #c8d3dbc3;
+}
+
+#bloodOrange {
+  background-color: #ffe1c8d1;
+}
+
+#greenGrapes {
+  background-color: rgb(220, 255, 226);
+}
+
+.bottle-detail {
+  display: none;
+}
+
 /* recipe */
 
 #recipe-bg {
@@ -599,10 +658,7 @@ footer {
 
   .flavors-title {
     font-size: 2em;
-    font-weight: bold;
-    margin-bottom: 20px;
-    text-align: center;
-    color: #333;
+    margin-bottom: 80px;
   }
 
   .flavor-slide {
@@ -624,19 +680,19 @@ footer {
 
   @keyframes flip-grow {
     0% {
-      transform: rotateY(0deg) scale(1);
+      transform: rotateY(0deg) scale(1) translateX(0);
     }
     25% {
-      transform: rotateY(90deg) scale(1.2);
+      transform: rotateY(90deg) scale(1.2) translateX(-40px);
     }
     50% {
-      transform: rotateY(180deg) scale(1.4);
+      transform: rotateY(180deg) scale(1.4) translateX(-80px);
     }
     75% {
-      transform: rotateY(270deg) scale(1.2);
+      transform: rotateY(270deg) scale(1.2) translateX(-120px);
     }
     100% {
-      transform: rotateY(360deg) scale(1);
+      transform: rotateY(360deg) scale(1) translateX(-200px);
     }
   }
 
@@ -658,6 +714,53 @@ footer {
 
   .dot.active {
     background-color: #333;
+  }
+
+  .bottle-detail {
+    width: 360px;
+    height: 450px;
+  }
+  
+  .bottle-detail h3, .bottle-detail p {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  
+  .bottle-detail h3 {
+    padding: 20px 0;
+    font-size: 1.2em;
+  }
+  
+  .bottle-detail p {
+    font-size: 0.7em;
+    margin-bottom: 20px;
+  }
+  
+  .bottle-detail p.aline-right {
+    padding: 15px 20px 15px 0;
+  }
+  
+  
+  .bottle-detail ul li {
+    margin-left: 0;
+  }
+
+  #Original {
+    position: absolute;
+    top: 1300px;
+    left: 70px;
+  }
+  
+  #bloodOrange {
+    position: absolute;
+    top: 1300px;
+    margin-left: 300px;
+  }
+  
+  #greenGrapes {
+    position: absolute;
+    top: 1300px;
+    margin-left: 580px;
   }
 
 
@@ -799,7 +902,7 @@ footer {
   .flavors-title {
     font-size: 3em;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     text-align: center;
     color: #333;
   }
@@ -818,24 +921,24 @@ footer {
   }
 
   .flavor-slide img.flipped {
-    animation: flip-grow 1s ease forwards;
+    animation: flip-grow 0.8s ease forwards;
   }
 
   @keyframes flip-grow {
     0% {
-      transform: rotateY(0deg) scale(1);
+      transform: rotateY(0deg) scale(1) translateX(0);
     }
     25% {
-      transform: rotateY(90deg) scale(1.2);
+      transform: rotateY(90deg) scale(1.2) translateX(-40px);
     }
     50% {
-      transform: rotateY(180deg) scale(1.4);
+      transform: rotateY(180deg) scale(1.4) translateX(-80px);
     }
     75% {
-      transform: rotateY(270deg) scale(1.2);
+      transform: rotateY(270deg) scale(1.2) translateX(-120px);
     }
     100% {
-      transform: rotateY(360deg) scale(1);
+      transform: rotateY(360deg) scale(1) translateX(-220px);
     }
   }
 
@@ -857,6 +960,68 @@ footer {
 
   .dot.active {
     background-color: #333;
+  }
+
+  .bottle-detail {
+    width: 450px;
+    height: 500px;
+  }
+  
+  .bottle-detail h3, .bottle-detail p {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  
+  .bottle-detail h3 {
+    padding: 30px 0;
+    font-size: 1.2em;
+  }
+  
+  .bottle-detail p {
+    font-size: 0.7em;
+    margin-bottom: 20px;
+  }
+  
+  .bottle-detail p.aline-right {
+    text-align: right;
+    padding: 15px 50px 15px 0;
+    
+  }
+  
+  .bottle-detail p span {
+    font-weight: bold;
+  }
+  
+  .bottle-detail ul li {
+    margin-left: 10px;
+    margin-right: 50px;
+    padding: 10px 0;
+  }
+  
+  .bottle-detail {
+    display: none;
+  }
+
+  #Original {
+    position: absolute;
+    top: 1450px;
+    left: 190px;
+  }
+  
+  #bloodOrange {
+    position: absolute;
+    top: 1450px;
+    margin-left: 380px;
+  }
+  
+  #greenGrapes {
+    position: absolute;
+    top: 1450px;
+    margin-left: 710px;
+  }
+
+  #recipe-bg {
+    margin-top: 170px;
   }
 
   .hero-recipe {
