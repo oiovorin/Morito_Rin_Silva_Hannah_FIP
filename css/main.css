@@ -116,18 +116,34 @@ header {
 }
 
 /* intro */
-#zima-intro {
-  margin-bottom: 100px;
+#intro {
+  background-image: url(../images/intro-bg.png);
+  height: 310px;
+  margin: 100px 0;
 }
 
-#zima-intro h2, #zima-intro h3 {
+#intro p:first-child {
+  margin-top: 50px;
+  color: white;
+  font-size: 1em;
+}
+
+#intro p:last-child {
+  background-color: none;
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 30px;
+  height: 40px;
   text-align: center;
+  color: white;
+  font-size: 0.9em;
 }
 
-
-#zima-intro p {
-  margin: 30px;
+#intro p:last-child:hover {
+  background-color: white;
+  color: #01497c;
 }
+
 
 /* Flavors */
 
@@ -539,6 +555,17 @@ footer {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
   }
 
+  #intro {
+    background-image: url(../images/m-intro-bg.png);
+    height: 490px;
+  }
+
+  #intro p:first-child {
+    margin-top: 100px;
+    color: white;
+    font-size: 1.2em;
+  }
+
   /* Flavors */
 
   #flavors {
@@ -726,6 +753,22 @@ footer {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
   }
 
+
+  #intro {
+    background-image: url(../images/intro-bg0000.png);
+    height: 600px;
+  }
+
+  #intro p:first-child {
+    margin-top: 200px;
+    color: white;
+    font-size: 1.3em;
+  }
+  
+  #intro p:last-child {
+    padding: 15px;
+    height: 50px;
+  }
   /* Flavors */
 
   #flavors {
