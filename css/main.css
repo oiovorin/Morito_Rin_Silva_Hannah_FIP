@@ -1,6 +1,6 @@
 #header-flex {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 #header-logo {
@@ -123,7 +123,7 @@ header {
 }
 
 #intro p:first-child {
-  margin-top: 50px;
+  margin-top: 80px;
   color: white;
   font-size: 1em;
 }
@@ -230,6 +230,7 @@ header {
   text-align: center;
   color: white;
   padding-bottom: 40px;
+  font-size: 1.8em;
 }
 
 
@@ -264,12 +265,25 @@ header {
 
 /* instagram */
 
+#followUs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  padding: 30px;
+  color: #01497c;   
+}
+
+.instagram h2 {
+  font-size: 1.2em;
+  color: #01497c;
+}
+
 .instagram {
   display: flex;
   align-items: center;
-  justify-content: center;       
-  gap: 10px;                     
-  padding: 0 50px; 
+  justify-content: center;  
+  color: rgb(54, 54, 54);
 }
 
 #instagram-pic-container {
@@ -303,6 +317,11 @@ header {
   color: #01497c;
   font-size: 2rem;
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.arrow:hover {
+  transform: scale(1.4);
 }
 
 #arrows {
@@ -457,10 +476,11 @@ footer {
   #header-logo {
     position: absolute;
     top: 0px;
-    left: 384px;
-    padding-top: 15px;
+    left: 365px;
+    padding-top: 25px;
     z-index: 100;
   }
+
 
   #burger-con {
     position: static;
@@ -517,15 +537,20 @@ footer {
 
   /*header icons*/
 
+  #header-icons a {
+    text-decoration: none;
+    color: #01497c;
+    padding: 10px;
+  }
+
   #header-icons {
     display: inline;
-    gap: 0.5rem;
-
     align-items: center;
+    margin-top: 30px;
   }
 
   .header-icon {
-    color: #000;
+    color: #01497c;
     font-size: 1.5rem;
     text-align: right;
     transition: color 0.3s ease;
@@ -670,10 +695,6 @@ footer {
     font-size: 1em !important;
   }
 
-  /*#home {
-        padding-left: 30px;
-      }*/
-
   #footer-icon {
     padding-top: 15px;
   }
@@ -708,7 +729,7 @@ footer {
   }
 
   #header-logo {
-    margin-left: 300px;
+    left: 550px;
   }
 
   #main-nav #burger-con ul li.promotion {
@@ -753,7 +774,7 @@ footer {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
   }
 
-
+/* introduction */
   #intro {
     background-image: url(../images/intro-bg0000.png);
     height: 600px;
